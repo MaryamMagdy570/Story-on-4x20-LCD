@@ -9,6 +9,11 @@
 #include "DIO_interface.h"
 
 
+void CLCD_voidClearDisplay()
+{
+	CLCD_voidSendCommand(CLCD_CMD_CLEAR_DISPLAY);
+}
+
 void CLCD_voidInit(void)
 {
 

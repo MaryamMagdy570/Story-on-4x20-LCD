@@ -14,6 +14,7 @@
 
 
 
+void CLCD_voidClearDisplay();
 
 void CLCD_voidInit(void);
 
